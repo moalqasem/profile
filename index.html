@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Al-Qasem | UX/UI Designer & Frontend Developer</title>
+    <!-- Google Fonts: Plus Jakarta Sans for UI, Outfit for Headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Remix Icons CDN for Modern Sleek Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-dot"></span> Mohammad.
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge-container">
+                    <span class="status-badge">
+                        <span class="pulse-dot"></span> Available for Projects
+                    </span>
+                </div>
+                <h1 class="hero-title">Mohammad Al-Qasem</h1>
+                <h2 class="hero-subtitle">UX/UI Designer &amp; Frontend Developer</h2>
+                <p class="hero-description">
+                    Certified UX/UI Designer with strong skills in user-centered design, prototyping, and usability testing. Experienced in creating intuitive interfaces using Figma, with a passion for delivering engaging digital experiences.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="assets/cv.jpg" target="_blank" class="btn btn-outline">
+                        <i class="ri-file-download-line"></i> View CV
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/moalqasem" target="_blank" class="social-link" title="GitHub"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammad-al-qasem" target="_blank" class="social-link" title="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://instagram.com/mahmad_alqasm" target="_blank" class="social-link" title="Instagram"><i class="ri-instagram-line"></i></a>
+                    <a href="mailto:mohammad21alq@gmail.com" class="social-link" title="Email"><i class="ri-mail-send-line"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-area">
+                <div class="image-glowing-backdrop"></div>
+                <div class="profile-image-wrapper">
+                    <img src="assets/me.png" alt="Mohammad Al-Qasem" class="profile-img">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" class="scroll-btn">
+                <span>Scroll Down</span>
+                <i class="ri-arrow-down-double-line"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About & Timeline Section -->
+    <section id="about" class="about-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">My Journey &amp; Education</h2>
+            </div>
+            
+            <div class="about-grid">
+                <!-- Info Column -->
+                <div class="about-info">
+                    <h3 class="about-subtitle">Designing Experiences, Building Interfaces</h3>
+                    <p class="about-text">
+                        I bridge the gap between design concepts and real-world interfaces. By blending user psychology, aesthetics, and structured code, I build digital products that are not only beautiful but also highly functional.
+                    </p>
+                    <blockquote class="quote-box">
+                        <i class="ri-double-quotes-l quote-icon"></i>
+                        <p>Good design is invisible. Great design is unforgettable.</p>
+                    </blockquote>
+                    <div class="personal-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-val"><i class="ri-map-pin-line"></i> Amman, Jordan</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Languages</span>
+                            <span class="detail-val"><i class="ri-translate-2"></i> Arabic (Native), English (Intermediate)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Column -->
+                <div class="about-timeline">
+                    <h3 class="about-subtitle">Education &amp; Credentials</h3>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Open Arab University</div>
+                            <h4 class="timeline-title">B.Sc. in Information Technology &amp; Computing</h4>
+                            <p class="timeline-desc">Specialized in computing methods, networking, and development practices.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Borcelle College</div>
+                            <h4 class="timeline-title">Interactive Design Studies</h4>
+                            <p class="timeline-desc">Focusing on modern UI structures, interaction principles, and advanced Figma prototyping. (2024 - Present)</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Certifications</div>
+                            <h4 class="timeline-title">Professional Credentials</h4>
+                            <ul class="timeline-list">
+                                <li><i class="ri-checkbox-circle-line"></i> Google UX Design Professional Certificate</li>
+                                <li><i class="ri-checkbox-circle-line"></i> Flutter Mobile Development Certificate (Packet)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">My Technical Toolbox</h2>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Card 1: Design Tools -->
+                <div class="skills-card">
+                    <div class="card-icon-wrapper text-blue">
+                        <i class="ri-pantone-line"></i>
+                    </div>
+                    <h3 class="card-title">Design Tools</h3>
+                    <p class="card-desc">Industry-standard applications I use to create interactive UI mockups, design systems, and visual assets.</p>
+                    <div class="tag-container">
+                        <span class="skill-tag"><i class="ri-figma-line"></i> Figma</span>
+                        <span class="skill-tag">Photoshop</span>
+                    </div>
+                </div>
+
+                <!-- Card 2: UX Methodologies -->
+                <div class="skills-card">
+                    <div class="card-icon-wrapper text-emerald">
+                        <i class="ri-git-commit-line"></i>
+                    </div>
+                    <h3 class="card-title">UX Methods</h3>
+                    <p class="card-desc">Processes and methodologies I apply to ensure products solve real user problems and feel intuitive.</p>
+                    <div class="tag-container">
+                        <span class="skill-tag">Wireframing</span>
+                        <span class="skill-tag">Prototyping</span>
+                        <span class="skill-tag">Usability Testing</span>
+                        <span class="skill-tag">Agile &amp; Scrum</span>
+                    </div>
+                </div>
+
+                <!-- Card 3: Frontend Development -->
+                <div class="skills-card">
+                    <div class="card-icon-wrapper text-purple">
+                        <i class="ri-code-s-slash-line"></i>
+                    </div>
+                    <h3 class="card-title">Development</h3>
+                    <p class="card-desc">Languages and frameworks I use to translate mockups into clean, responsive, and functional code.</p>
+                    <div class="tag-container">
+                        <span class="skill-tag"><i class="ri-html5-line"></i> HTML5 &amp; CSS3</span>
+                        <span class="skill-tag"><i class="ri-bootstrap-line"></i> Bootstrap 5</span>
+                        <span class="skill-tag">Flutter (UI Focus)</span>
+                        <span class="skill-tag"><i class="ri-git-branch-line"></i> Git &amp; GitHub</span>
+                        <span class="skill-tag">AI-Assisted Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            
+            <div class="projects-container">
+                <!-- Project 1: Dr. Money -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="assets/dr-money.jpg" alt="Dr. Money Dashboard" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://drmoney-700d3.web.app" target="_blank" class="overlay-link"><i class="ri-external-link-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-badge">UI/UX &amp; Frontend</span>
+                            <span class="project-collab"><i class="ri-robot-2-line"></i> AI Collaborated</span>
+                        </div>
+                        <h3 class="project-title">Dr. Money — Financial Advisor Dashboard</h3>
+                        <p class="project-desc">
+                            A personal finance dashboard designed to help users track monthly salaries, manage expenses, and follow the 50/30/20 budget rule (Essentials, Wants, and Savings). Features budget visualization, instant transaction logging, and interactive responsive metrics.
+                        </p>
+                        <div class="project-tags">
+                            <span>Figma</span>
+                            <span>HTML5/CSS3</span>
+                            <span>Bootstrap 5</span>
+                            <span>Google Antigravity</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drmoney-700d3.web.app" target="_blank" class="btn-link">Live Demo <i class="ri-arrow-right-up-line"></i></a>
+                            <a href="https://github.com/moalqasem" target="_blank" class="btn-link secondary-link">View Code <i class="ri-github-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: TechVault -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="assets/tech-vault.jpg" alt="TechVault E-Commerce" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://techvault-b4999.web.app/" target="_blank" class="overlay-link"><i class="ri-external-link-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-badge">UI/UX &amp; Frontend</span>
+                            <span class="project-collab"><i class="ri-robot-2-line"></i> AI Collaborated</span>
+                        </div>
+                        <h3 class="project-title">TechVault — Electronics E-Commerce Store</h3>
+                        <p class="project-desc">
+                            A highly optimized, dark-themed e-commerce store dedicated to selling premium screens, laptops, TVs, and smartphones. Designed on Figma with conversion-centered design patterns and built into a fully fluid responsive layout with glow states and transitions.
+                        </p>
+                        <div class="project-tags">
+                            <span>Figma</span>
+                            <span>HTML5/CSS3</span>
+                            <span>Bootstrap 5</span>
+                            <span>Google Antigravity</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://techvault-b4999.web.app/" target="_blank" class="btn-link">Live Demo <i class="ri-arrow-right-up-line"></i></a>
+                            <a href="https://github.com/moalqasem" target="_blank" class="btn-link secondary-link">View Code <i class="ri-github-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section scroll-reveal">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-grid">
+                    <!-- Text Info -->
+                    <div class="contact-info">
+                        <span class="section-tag alt">Let's Work Together</span>
+                        <h2 class="contact-heading">Have an idea? Let's bring it to life.</h2>
+                        <p class="contact-desc">
+                            I am currently open to UI/UX design opportunities, freelance projects, and front-end development collaborations. Feel free to reach out using any of the channels below!
+                        </p>
+                        
+                        <div class="contact-methods">
+                            <a href="mailto:mohammad21alq@gmail.com" class="method-item">
+                                <div class="method-icon"><i class="ri-mail-line"></i></div>
+                                <div class="method-text">
+                                    <span class="method-label">Email Me</span>
+                                    <span class="method-val">mohammad21alq@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="tel:+962780042762" class="method-item">
+                                <div class="method-icon"><i class="ri-phone-line"></i></div>
+                                <div class="method-text">
+                                    <span class="method-label">Call or WhatsApp</span>
+                                    <span class="method-val">+962 7800 42762</span>
+                                </div>
+                            </a>
+                            <div class="method-item">
+                                <div class="method-icon"><i class="ri-map-pin-line"></i></div>
+                                <div class="method-text">
+                                    <span class="method-label">Based In</span>
+                                    <span class="method-val">Amman, Jordan</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Direct Quick Contact Actions -->
+                    <div class="contact-actions-panel">
+                        <h3 class="panel-title">Quick Actions</h3>
+                        <p class="panel-desc">Launch a chat directly or view my works on different platforms.</p>
+                        <div class="actions-grid">
+                            <a href="https://wa.me/962780042762" target="_blank" class="action-btn btn-whatsapp">
+                                <i class="ri-whatsapp-line"></i> Chat on WhatsApp
+                            </a>
+                            <a href="mailto:mohammad21alq@gmail.com" class="action-btn btn-email">
+                                <i class="ri-send-plane-fill"></i> Send an Email
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohammad-al-qasem" target="_blank" class="action-btn btn-linkedin">
+                                <i class="ri-linkedin-box-line"></i> Connect on LinkedIn
+                            </a>
+                            <a href="https://github.com/moalqasem" target="_blank" class="action-btn btn-github">
+                                <i class="ri-github-line"></i> Follow on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p class="copyright">&copy; 2026 Mohammad Al-Qasem. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
